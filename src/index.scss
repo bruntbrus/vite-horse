@@ -1,0 +1,48 @@
+:root {
+  --nav-panel-width: 240px;
+  --page-header-height: 40px;
+  --page-footer-height: 40px;
+  --editor-toolbar-height: 42px;
+  --terminal-font-family: Consolas, monospace;
+  --terminal-prompt-color: #ccc;
+  --terminal-input-color: #33ff00;
+  --terminal-command-color: #33ff00;
+  --terminal-response-color: #ffcc00;
+}
+
+body {
+  margin: 0;
+}
+
+a[href] {
+  text-decoration: none;
+  transition: color 100ms;
+}
+
+a[href]:hover {
+  color: var(--yellow-500);
+}
+
+p {
+  margin: 0.8em 0;
+}
+
+h1 {
+  margin: 10px 0;
+}
+
+code {
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+#app {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--primary-color-text);
+}
